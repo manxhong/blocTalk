@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BTHandler.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) BTHandler *btHandler;
+
 
 
 @end
